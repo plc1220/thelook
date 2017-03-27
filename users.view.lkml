@@ -71,6 +71,11 @@ view: users {
     sql: ${TABLE}.postcode ;;
   }
 
+  dimension: zipcode {
+    type: zipcode
+    sql: ${TABLE}.postcode ;;
+  }
+
   dimension: state {
     type: string
     sql: ${TABLE}.state ;;
