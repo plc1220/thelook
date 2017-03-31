@@ -1,6 +1,4 @@
 view: orders {
-  sql_table_name: thelook_magnitude.orders ;;
-
   dimension: id {
     primary_key: yes
     type: number
