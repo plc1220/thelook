@@ -1,6 +1,4 @@
 view: users {
-  sql_table_name: thelook_magnitude.users ;;
-
   dimension: id {
     primary_key: yes
     type: number
