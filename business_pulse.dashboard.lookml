@@ -1,6 +1,7 @@
 - dashboard: business_pulse
   title: "Business Pulse"
-  layout: grid
+  layout: newspaper
+  preferred_viewer: dashboards-next
   rows:
     - elements: [total_orders, average_order_profit, first_purchasers]
       height: 220
