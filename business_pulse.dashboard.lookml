@@ -1,6 +1,6 @@
 - dashboard: business_pulse
   title: "Business Pulse"
-  layout: newspaper
+  layout: grid
   preferred_viewer: dashboards-next
   rows:
     - elements: [total_orders, average_order_profit, first_purchasers]
